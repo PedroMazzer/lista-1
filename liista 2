@@ -1,0 +1,24 @@
+ // exercicio 1
+
+    function concatenarArrays(array1, array2) {
+        return array1.concat(array2);
+    }
+    
+    // exercicio 2
+    const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    
+    const parteNumeros = numeros.slice(3, 8);
+    console.log('Parte dos números (índices 3 a 7):', parteNumeros);
+    
+    //exercicio 3
+    const frutas = ['Maçã', 'Banana', 'Laranja', 'Limão', 'Abacaxi'];
+    
+    frutas.splice(2, 2, 'Kiwi', 'Pêssego');
+    console.log('Frutas após a remoção e adição:', frutas);
+    
+    //exercicio 4
+    const menuPrincipal = ['Feijoada', 'Churrasco', 'Pizza', 'Hamburguer'];
+    const menuDeSobremesas = ['Pudim', 'Torta de Limão', 'Brigadeiro'];
+    
+    const menuCompleto = menuPrincipal.concat(menuDeSobremesas);
+    console.log('Menu completo:', menuCompleto);
